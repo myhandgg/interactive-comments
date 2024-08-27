@@ -11,8 +11,6 @@
     "server": "json-server --watch data/data.json --port 9000",
     "predeploy": "vite build",
     "deploy": "gh-pages -d dist"
-}
-
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.1",
